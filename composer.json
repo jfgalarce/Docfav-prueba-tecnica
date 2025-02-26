@@ -1,0 +1,29 @@
+{
+    "name": "root/docfav-prueba-tecnica",
+    "autoload": {
+        "psr-4": {
+            "Root\\DocfavPruebaTecnica\\": "src/"
+        },
+        "psr-0": {"": "src/"}
+    },
+    "authors": [
+        {
+            "name": "jfgalarce",
+            "email": "jfgalarce@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^3",
+        "doctrine/dbal": "^4",
+        "symfony/cache": "^7",
+        "symfony/event-dispatcher": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "config": {
+      "platform": {
+        "php": "8.2.0"
+      }
+    }
+}
