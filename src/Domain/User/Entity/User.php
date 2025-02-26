@@ -5,6 +5,7 @@ use DocfavPruebaTecnica\Domain\User\ValueObject\UserId;
 use DocfavPruebaTecnica\Domain\User\ValueObject\Name;
 use DocfavPruebaTecnica\Domain\User\ValueObject\Email;
 use DocfavPruebaTecnica\Domain\User\ValueObject\Password;
+use Doctrine\ORM\Mapping as ORM;
 use DateTimeImmutable;
 
 

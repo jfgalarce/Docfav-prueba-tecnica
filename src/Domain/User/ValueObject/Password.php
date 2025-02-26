@@ -9,6 +9,10 @@ class Password
 
   public function __construct(string $password)
   {
+    if (!preg_match('/^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/', $password)) {
+      throw new \InvalidArgumentException('El Password debe ser de al menos 8 caracteres, con una letra mayuscula, un numero, y un caracter especial.');
+    }
+
     $this->hashedPassword = password_hash($password, PASSWORD_DEFAULT);
   }
 

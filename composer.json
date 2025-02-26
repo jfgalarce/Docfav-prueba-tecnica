@@ -2,7 +2,7 @@
     "name": "root/docfav-prueba-tecnica",
     "autoload": {
         "psr-4": {
-            "Root\\DocfavPruebaTecnica\\": "src/"
+            "DocfavPruebaTecnica\\": "src/"
         },
         "psr-0": {"": "src/"}
     },

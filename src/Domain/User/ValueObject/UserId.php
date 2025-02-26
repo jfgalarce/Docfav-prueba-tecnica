@@ -3,7 +3,7 @@
 namespace DocfavPruebaTecnica\Domain\User\ValueObject;
 
 
-class UserId
+final class UserId
 {
   private int $id;
 
