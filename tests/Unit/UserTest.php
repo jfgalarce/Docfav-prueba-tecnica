@@ -33,13 +33,13 @@ class UserTest extends TestCase
 
     public function testValidName(): void
     {
-        $name = new Name('John Doe');
-        $this->assertEquals('John Doe', $name->getName());
+        $name = new Name('Juan Galarce');
+        $this->assertEquals('Juan Galarce', $name->getName());
     }
     public function testShortNameThrowsException(): void
     {
         $this->expectException(\InvalidArgumentException::class);
-        new Name('Jo');
+        new Name('ju');
     }
     public function testValidEmail(): void
     {
